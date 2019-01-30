@@ -1,0 +1,79 @@
+.car-details .card {
+  -webkit-box-shadow: 0px 2px 1px #dedede;
+  -moz-box-shadow: 0px 2px 1px #dedede;
+  -o-box-shadow: 0px 2px 1px #dedede;
+  box-shadow: 0px 2px 1px #dedede; }
+
+html {
+  direction: rtl; }
+
+header .all-nav .top-nav .top-start ul li {
+  color: #73879C;
+  padding: 7px; }
+
+header .all-nav .top-nav .top-start ul li:last-of-type {
+  border-right: none;
+  border-left: 1px solid #dbdbdb; }
+
+header .all-nav .top-nav .top-start ul li:first-of-type {
+  border-left: none;
+  border-right: 1px solid #dbdbdb; }
+
+header .all-nav .top-nav .top-start ul li:first-of-type::after {
+  border-left: none;
+  margin-left: auto;
+  border-right: 1px solid #dbdbdb;
+  content: "";
+  margin-right: 25px; }
+
+header .all-nav .top-nav .top-end ul li:last-of-type {
+  border-right: none;
+  border-left: 1px solid #dbdbdb; }
+
+header .all-nav .top-nav .top-end ul li:first-of-type {
+  border-left: none;
+  border-right: 1px solid #dbdbdb; }
+
+header .all-nav .top-nav .top-end ul li:first-of-type::after {
+  border-left: none;
+  margin-left: 0;
+  border-right: 1px solid #dbdbdb;
+  margin-right: 25px; }
+
+.search .tabs {
+  margin-bottom: -2px; }
+  .search .tabs li:first-of-type > a:hover,
+  .search .tabs li:first-of-type > a:focus,
+  .search .tabs li:first-of-type > a {
+    border-top-right-radius: 0px; }
+  .search .tabs li:last-of-type > a:hover,
+  .search .tabs li:last-of-type > a:focus,
+  .search .tabs li:last-of-type > a {
+    border-top-left-radius: 0px; }
+  .search .tabs li:last-of-type {
+    float: inline-end; }
+
+.car-details .card {
+  padding: 0; }
+  .car-details .card .details .status {
+    left: auto;
+    right: 30px; }
+  .car-details .card .details .more {
+    margin: 20px 0 10px 5px; }
+
+.pgwSlider .ps-current {
+  float: right; }
+  .pgwSlider .ps-current img {
+    min-height: 400px; }
+
+.pgwSlider ul {
+  float: left; }
+
+@media (min-width: 320px) {
+  .navbar-nav {
+    float: left !important; } }
+
+@media (max-width: 320px) {
+  .navbar ul {
+    float: right !important;
+    padding-right: 10px; } }
